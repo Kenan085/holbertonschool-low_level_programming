@@ -18,7 +18,7 @@ int main(void)
 		else
 		{
 			putchar(letter);
-			putchar("\n");
+			putchar('\n');
 		}
 	}
 	return (0);

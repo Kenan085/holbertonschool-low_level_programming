@@ -3,12 +3,12 @@
 /**
  * print_alphabet_x10 - Entry babyy
  *
- *I
+ *
  */
 void print_alphabet_x10(void)
 {
 	int loopie = 0;
-	
+
 	while (loopie < 10)
 	{
 		char letter = 'a';

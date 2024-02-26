@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Fizz Buzz babyyyy
@@ -22,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", num);
+			printf("%d", num);
 		}
 		printf(" ");
 		num++;

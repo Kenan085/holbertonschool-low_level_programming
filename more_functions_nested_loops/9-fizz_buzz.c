@@ -25,8 +25,10 @@ int main(void)
 		{
 			printf("%i", num);
 		}
-		printf(" ");
+		if (num < 100)
+			printf(" ");
 		num++;
 	}
+	printf("\n");
 	return (0);
 }

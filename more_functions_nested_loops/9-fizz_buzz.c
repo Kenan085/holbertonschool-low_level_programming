@@ -27,5 +27,6 @@ int main(void)
 		printf(" ");
 		num++;
 	}
+	printf("\n");
 	return (0);
 }

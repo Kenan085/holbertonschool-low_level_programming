@@ -22,7 +22,7 @@ int main(void)
 		}
 		else
 		{
-			printf (num);
+			printf ("%d", num);
 		}
 		printf(" ");
 		num++;

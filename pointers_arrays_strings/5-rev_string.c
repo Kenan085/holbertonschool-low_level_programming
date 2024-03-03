@@ -19,7 +19,7 @@ void rev_string(char *s)
 	n = n + 1;
 	begins = s;
 
-	while (i <= n / 2)
+	while (i < n / 2)
 	{
 		char str;
 

@@ -7,7 +7,6 @@
  */
 void rev_string(char *s)
 {
-	char str;
 	char *ends, *begins;
 	int n, i = 0;
 
@@ -22,6 +21,8 @@ void rev_string(char *s)
 
 	while (i <= n / 2)
 	{
+		char str;
+
 		str = *ends;
 		*ends = *begins;
 		*begins = str;

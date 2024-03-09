@@ -4,6 +4,7 @@
  * _isprime - Function that checks the number as prime number
  * @num: The num
  * @operand: The number that represents the operand number
+ * Return: prime num
  */
 int _isprime(unsigned int num, unsigned int operand)
 {

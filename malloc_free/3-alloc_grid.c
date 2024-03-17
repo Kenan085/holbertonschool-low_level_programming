@@ -18,13 +18,15 @@ int **alloc_grid(int width, int height)
 
 	if (height < 1 || width < 1)
 	{
-		free(arr);
 		return (NULL);
 	}
 
 	arr = (int **) malloc(height * sizeof(int *));
 	if (arr == NULL)
+	{
+		free(arr);
 		return (NULL);
+	}
 
 	for (i = 0; i < height; i++)
 	{

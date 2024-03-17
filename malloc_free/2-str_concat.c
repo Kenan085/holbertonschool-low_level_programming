@@ -10,7 +10,7 @@
 
 int _strlength(char *s)
 {
-	int size = 0;
+	unsigned int size = 0;
 
 	if (s == NULL)
 	{

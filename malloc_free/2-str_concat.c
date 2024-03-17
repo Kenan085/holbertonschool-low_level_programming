@@ -67,6 +67,7 @@ char *str_concat(char *s1, char *s2)
 		else
 		{
 			*(arr + k) = *s2;
+			s2++;
 		}
 		k++;
 	}

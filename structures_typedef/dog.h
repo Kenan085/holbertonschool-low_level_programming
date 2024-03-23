@@ -6,9 +6,9 @@
 
 /**
  * struct dog - creates dog struct
- * name: name of the dog
- * age: age of the dog
- * owner: Papa of dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: Papa of dog
  *
  * Description: Our first struct. It is all about dogs
  */

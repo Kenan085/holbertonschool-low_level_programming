@@ -12,6 +12,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *neww;
+	int i;
 
 	neww = malloc(sizeof(dog_t));
 	if (!neww)
@@ -30,8 +31,17 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(neww);
 		return (NULL);
 	}
-	strcpy((*neww).name, name);
-	strcpy((*neww).owner, owner);
+	for (i = 0; i < name[i]; i++)
+	{
+		neww->name[i] = name[i];
+	}
+	dog->name[i] = '\0';
+
+	for (i = 0; i < owner[i]; i++)
+	{
+		(*neww).owner[i] = owner[i];
+	}
+	neww->owner[i] = '\0';
 	neww->age = age;
 
 	return (neww);

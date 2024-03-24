@@ -14,7 +14,8 @@ void print_all(const char * const format, ...)
 		{ "i", print_a_integer },
 		{ "f", print_a_float },
 		{ "s", print_a_char_ptr }
-	}
+	};
+
 	unsigned int i = 0;
 	unsigned int j;
 	char *separator = "";

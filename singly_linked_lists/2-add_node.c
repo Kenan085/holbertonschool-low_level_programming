@@ -22,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		template->next = *head;
 		template->str = strdup(str);
-		template->len = strdlen(str);
+		template->len = strnlen(str);
 		if (template->str == NULL)
 		{
 			free(template->str);

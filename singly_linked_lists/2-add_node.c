@@ -1,6 +1,23 @@
 #include "lists.h"
 
 /**
+ * _strlen - gets length of the string
+ * @s: string
+ * Return: length of the string
+ *
+ */
+
+int _strlen(const char *s)
+{
+	int i;
+
+	for (i = 0; s[i]; i++)
+		;
+	return (i);
+}
+
+
+/**
  * add_node - function that adds a new node at the beginning of a list_t list
  * @head: head pointer of the node
  * @str: data of the node
@@ -22,7 +39,7 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		template->next = *head;
 		template->str = strdup(str);
-		template->len = strlen(str);
+		template->len = _strlen(str);
 		if (template->str == NULL)
 		{
 			free(template->str);

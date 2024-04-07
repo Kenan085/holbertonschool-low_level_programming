@@ -46,7 +46,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 			tmp->next = newnode;
 		}
-		return (newmode);
+		return (newnode);
 
 	}
 	return (NULL);
